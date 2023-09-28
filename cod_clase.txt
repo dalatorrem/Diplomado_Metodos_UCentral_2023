@@ -1,0 +1,5 @@
+datos_input['DATE'] = pd.to_datetime(datos_input['Month'])
+
+datos_input['YEAR'] = datos_input['DATE'].dt.year
+
+datos_input['Month'] = datos_input['DATE'].dt.month
